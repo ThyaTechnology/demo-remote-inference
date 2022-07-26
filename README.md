@@ -60,6 +60,8 @@ Arguments:
  - image: local path of one or more image(s) to process
  - split_image_V: number of vertical split for the image
  - split_image_H: number of horizontal split for the image
+ - remove_empty_pixels: remove empty pixels and create smaller-size images
+ - overlapping_pixels: number of overlapping pixel on each patch
 
 ## Extra
 
@@ -77,3 +79,5 @@ Arguments:
  - output_folder: local path of a folder to store the split images
  - image: local path of one or more image(s) to process
  - input_folder: local path of a folder with images to process
+ - remove_empty_pixels: remove empty pixels and create smaller-size images
+ - overlapping_pixels: number of overlapping pixel on each patch

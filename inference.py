@@ -26,7 +26,7 @@ parser.add_argument('--export_xml', action='store_true', help="save detection in
 
 # Image Settings
 parser.add_argument("--split_image_H", type=int, default=1, help="number of horizontal splits")
-parser.add_argument("--split_image_V", type=int, default=2, help="number of vertical splits")  
+parser.add_argument("--split_image_V", type=int, default=1, help="number of vertical splits")  
 
 parser.add_argument('--remove_empty_pixels', action='store_true', help="keep only the smaller patch. Warning: this will change the aspect ratio")  
 parser.add_argument("--overlapping_pixels", type=int, default=0, help="amount of overlap between tiles (in pixels)")  

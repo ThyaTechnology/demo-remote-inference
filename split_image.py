@@ -3,6 +3,7 @@ from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 import cv2
 import os
 import shutil
+import copy
 
 
 parser = ArgumentParser(
@@ -47,7 +48,7 @@ for i_image, image_path in enumerate(args.image):
     
 
     image_results = {"detection": [], "labels":[]}
-    import copy
+
     # process patches of images
     for i in range(0, nRows):
         for j in range(0, mCols):

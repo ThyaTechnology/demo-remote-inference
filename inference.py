@@ -5,7 +5,7 @@ import cv2
 import os
 import shutil
 import pandas as pd
-
+import copy
 
 parser = ArgumentParser(
     description='Process 1 or more image(s) with a model on CloudLabeling',
